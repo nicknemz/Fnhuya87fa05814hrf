@@ -2,6 +2,13 @@
 -- Version: 3.3
 
 -- Instances:
+wait(0.2)
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "synepz intermal ui";
+Text = "internal ui is loaded! if you have issue send me Onk#9718";
+Duration = 5;
+})
 
 local FakeInternal = Instance.new("ScreenGui")
 local Dim = Instance.new("Frame")
