@@ -1674,7 +1674,7 @@ local function CLAL_fake_script() -- Settings.SettingsScript
 			task.wait(0.1)
 		until shared.FakeInternal.Version ~= nil
 	
-		script.Parent.Version.Text = string.format("%s | made by zzerexx#3970", shared.FakeInternal.Version)
+		script.Parent.Version.Text = string.format("%s | made by Onk#9718", shared.FakeInternal.Version)
 	end)
 end
 coroutine.wrap(CLAL_fake_script)()
